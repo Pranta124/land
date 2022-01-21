@@ -1,0 +1,146 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+body
+{
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+   margin-top: 40px;
+    
+}
+.register
+{
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0 10px 0px;
+    text-align:center;
+    border-radius: 15px 15px 0px 0px;
+    font-style: italic;
+}
+
+.main
+{
+    width: 650px;
+    background-color: rgba(70, 67, 67, 0.5);
+    margin: auto;
+}
+form
+{
+    padding: 5px;
+}
+
+.option
+{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+.upazila
+{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 5px 22px;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    
+}
+.name
+{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.mouza
+{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 5px 22px;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+h2
+{
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+.radio
+{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color:white;
+    font-style: italic;
+}
+.radio input
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    font-style: italic;
+}
+input#name
+{
+    
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    width:200px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px
+     rgba(0,0,0,0.3);
+     font-style: italic;
+}
+button
+{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    font-style: italic;
+
+}
+button:hover{
+    background-color: #5390F5;
+}
